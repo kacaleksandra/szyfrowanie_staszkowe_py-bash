@@ -1,0 +1,32 @@
+body {
+  font-family: Calibri, sans-serif;
+  background-color: azure;
+}
+
+table {
+  border-collapse: collapse;
+  margin:auto;
+}
+
+h2{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top:2%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even){
+  background-color: white;
+}
